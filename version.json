@@ -28,7 +28,7 @@
   "windows": {
     "current_version": "3.0.0",
     "min_supported_version": "3.0.0",
-    "keyversion": "WINDOWS-WS-SRMORAES-2026-0001",
+    "keyversion": "WINDOWS-WS-SRMORAES-2026-0002",
     "exe_url": "https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest"
   },
 
