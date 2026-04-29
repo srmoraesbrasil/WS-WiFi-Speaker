@@ -5,7 +5,7 @@
   "current_version": "3.1.0",
   "min_supported_version": "3.0.0",
   "keyversion": "WS-SRMORAES-2026-0001",
-  "force_update": false,
+  "force_update": true,
   "maintenance_mode": false,
   "title": "WiFi Speaker Launcher",
   "message": "Nova atualização disponível para o WiFi Speaker Launcher.",
