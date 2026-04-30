@@ -1,37 +1,54 @@
-<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F"/>
-      <stop offset="1" stop-color="#0C2444"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06101E"/>
+      <stop offset="0.55" stop-color="#091B33"/>
+      <stop offset="1" stop-color="#0A2A4D"/>
     </linearGradient>
-    <linearGradient id="cyanBlue" x1="40" y1="40" x2="1160" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="stroke" x1="44" y1="52" x2="1146" y2="308" gradientUnits="userSpaceOnUse">
       <stop stop-color="#35D0FF"/>
-      <stop offset="1" stop-color="#4D68FF"/>
+      <stop offset="1" stop-color="#486CFF"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <linearGradient id="btn" x1="0" y1="0" x2="210" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#35D0FF"/>
+      <stop offset="1" stop-color="#486CFF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
-  <rect x="1" y="1" width="1198" height="338" rx="28" fill="url(#bg)" stroke="url(#cyanBlue)" stroke-opacity="0.45"/>
-  <circle cx="1060" cy="70" r="120" fill="#35D0FF" fill-opacity="0.06"/>
-  <circle cx="1120" cy="280" r="140" fill="#4D68FF" fill-opacity="0.08"/>
-  <circle cx="160" cy="50" r="100" fill="#35D0FF" fill-opacity="0.04"/>
-  <rect x="52" y="52" width="188" height="188" rx="34" fill="#0B1E39" stroke="url(#cyanBlue)"/>
-  <path d="M91 116C113 88 158 83 189 101" stroke="#35D0FF" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
-  <path d="M99 135C120 114 153 111 176 124" stroke="#35D0FF" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
-  <text x="92" y="175" fill="#F4F8FF" font-size="64" font-family="Arial, Helvetica, sans-serif" font-weight="700">WS</text>
-  <path d="M136 190V214" stroke="#F4F8FF" stroke-width="8" stroke-linecap="round"/>
-  <path d="M121 210C129 203 143 203 151 210" stroke="#35D0FF" stroke-width="5" stroke-linecap="round"/>
-  <path d="M115 218C126 206 146 206 157 218" stroke="#35D0FF" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
-  <text x="286" y="120" fill="#FFFFFF" font-size="58" font-family="Arial, Helvetica, sans-serif" font-weight="700">WiFi Speaker</text>
-  <text x="286" y="166" fill="#B9CAE3" font-size="28" font-family="Arial, Helvetica, sans-serif">Android Receiver + Windows Launcher</text>
-  <text x="286" y="214" fill="#DDE8FF" font-size="22" font-family="Arial, Helvetica, sans-serif">Áudio do PC para o Android via Wi‑Fi • gratuito • sem anúncios • tudo liberado</text>
-  <rect x="286" y="245" width="162" height="40" rx="20" fill="#0F213B" stroke="#35D0FF" stroke-opacity="0.6"/>
-  <text x="318" y="271" fill="#EAF2FF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">by SrMoraes</text>
-  <rect x="466" y="245" width="230" height="40" rx="20" fill="#0F213B" stroke="#4D68FF" stroke-opacity="0.7"/>
-  <text x="492" y="271" fill="#EAF2FF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">youtube.com/@srmoraesbrasil</text>
+
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="30" fill="url(#bg)" stroke="url(#stroke)" stroke-opacity="0.55" stroke-width="3"/>
+  <circle cx="1030" cy="76" r="132" fill="#35D0FF" fill-opacity="0.065"/>
+  <circle cx="1125" cy="292" r="176" fill="#486CFF" fill-opacity="0.09"/>
+  <circle cx="144" cy="296" r="136" fill="#35D0FF" fill-opacity="0.04"/>
+  <path d="M44 300C260 230 350 370 565 286C760 210 870 246 1164 174" stroke="#35D0FF" stroke-opacity="0.14" stroke-width="3"/>
+
+  <rect x="58" y="58" width="194" height="194" rx="36" fill="#0A1E39" stroke="url(#stroke)" stroke-width="2"/>
+  <rect x="72" y="72" width="166" height="166" rx="30" fill="#0B1730" stroke="#35D0FF" stroke-opacity="0.18"/>
+  <path d="M96 123C119 92 169 86 204 107" stroke="#35D0FF" stroke-width="6" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M105 143C129 121 165 119 190 132" stroke="#35D0FF" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <text x="98" y="184" fill="#F7FBFF" font-size="66" font-family="Arial, Helvetica, sans-serif" font-weight="800">WS</text>
+  <path d="M145 200V223" stroke="#F7FBFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M128 219C137 211 153 211 162 219" stroke="#35D0FF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M121 228C134 214 156 214 169 228" stroke="#35D0FF" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+
+  <text x="298" y="116" fill="#FFFFFF" font-size="58" font-family="Arial, Helvetica, sans-serif" font-weight="800">WiFi Speaker Launcher</text>
+  <text x="300" y="162" fill="#BFD1EA" font-size="28" font-family="Arial, Helvetica, sans-serif">Android Receiver + Windows Portable</text>
+  <text x="300" y="209" fill="#E5F0FF" font-size="22" font-family="Arial, Helvetica, sans-serif">Use seu Android como caixa de som Wi‑Fi do PC, com baixa latência e visual moderno.</text>
+
+  <rect x="300" y="246" width="156" height="42" rx="21" fill="#0B213B" stroke="#35D0FF" stroke-opacity="0.75"/>
+  <text x="340" y="273" fill="#FFFFFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">SrMoraes</text>
+
+  <rect x="472" y="246" width="186" height="42" rx="21" fill="#0B213B" stroke="#486CFF" stroke-opacity="0.75"/>
+  <text x="516" y="273" fill="#FFFFFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Sem anúncios</text>
+
+  <rect x="674" y="246" width="188" height="42" rx="21" fill="#0B213B" stroke="#35D0FF" stroke-opacity="0.75"/>
+  <text x="714" y="273" fill="#FFFFFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">Tudo liberado</text>
+
+  <rect x="878" y="246" width="172" height="42" rx="21" fill="#0B213B" stroke="#486CFF" stroke-opacity="0.75"/>
+  <text x="922" y="273" fill="#FFFFFF" font-size="18" font-family="Arial, Helvetica, sans-serif" font-weight="700">v3.3.5</text>
+
+  <text x="300" y="322" fill="#8FB6D8" font-size="18" font-family="Arial, Helvetica, sans-serif">Canal oficial no README: youtube.com/@srmoraesbrasil</text>
 </svg>

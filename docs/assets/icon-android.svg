@@ -1,8 +1,6 @@
-<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="24" y="12" width="48" height="72" rx="10" fill="#0D1C33" stroke="#35D0FF" stroke-opacity="0.6"/>
-<rect x="34" y="22" width="28" height="48" rx="4" fill="#132947"/>
-<circle cx="48" cy="77" r="4" fill="#35D0FF"/>
-<path d="M38 28C41 24 55 24 58 28" stroke="#4D68FF" stroke-width="3" stroke-linecap="round"/>
-<path d="M40 40H56" stroke="#35D0FF" stroke-width="4" stroke-linecap="round"/>
-<path d="M44 48H52" stroke="#35D0FF" stroke-width="4" stroke-linecap="round"/>
-</svg>
+<svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="20" y1="10" x2="90" y2="100"><stop stop-color="#35D0FF"/><stop offset="1" stop-color="#486CFF"/></linearGradient></defs>
+<rect x="30" y="12" width="50" height="86" rx="14" fill="#0C1B31" stroke="url(#g)" stroke-width="2"/>
+<rect x="39" y="24" width="32" height="55" rx="5" fill="#132947"/><circle cx="55" cy="88" r="4.5" fill="#35D0FF"/>
+<path d="M44 32C48 28 62 28 66 32" stroke="#8FB6FF" stroke-width="4" stroke-linecap="round"/>
+<path d="M45 48H65" stroke="#35D0FF" stroke-width="5" stroke-linecap="round"/><path d="M49 58H61" stroke="#486CFF" stroke-width="5" stroke-linecap="round"/></svg>
