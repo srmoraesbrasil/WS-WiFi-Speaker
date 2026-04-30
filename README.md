@@ -1,307 +1,298 @@
-# 🎧 WiFi Speaker Launcher
-
-> Transforme seu Android em uma caixa de som Wi‑Fi para o seu PC ou notebook, com **baixa latência**, **receptor em segundo plano**, **atualização via GitHub** e **experiência gratuita, sem anúncios e com tudo liberado**.
+<p align="center">
+  <img src="docs/assets/hero.svg" alt="WiFi Speaker Hero" width="100%">
+</p>
 
 <p align="center">
-  <strong>Projeto gratuito desenvolvido por SrMoraes</strong><br>
-  📺 Canal oficial: <a href="https://www.youtube.com/@srmoraesbrasil">@srmoraesbrasil</a>
+  <img src="https://img.shields.io/badge/status-ativo-1F9D55?style=for-the-badge" alt="Status ativo">
+  <img src="https://img.shields.io/badge/windows-portable-0A84FF?style=for-the-badge" alt="Windows portable">
+  <img src="https://img.shields.io/badge/android-receiver-4D68FF?style=for-the-badge" alt="Android receiver">
+  <img src="https://img.shields.io/badge/gratuito-sem_an%C3%BAncios-F5A623?style=for-the-badge" alt="Gratuito sem anúncios">
+</p>
+
+<p align="center">
+  <strong>Transforme seu Android em uma caixa de som Wi‑Fi para o seu PC ou notebook.</strong><br>
+  Projeto gratuito, sem anúncios e com todos os recursos liberados, criado por <strong>SrMoraes</strong>.
 </p>
 
 ---
 
-## ✨ O que é o WiFi Speaker Launcher?
+## 📌 O que é o WiFi Speaker?
 
-O **WiFi Speaker Launcher** é um sistema com duas partes:
+O **WiFi Speaker** é um projeto composto por duas partes:
 
-- **Launcher Windows** → envia o áudio do computador pela rede Wi‑Fi.
-- **App Android Receiver** → recebe o áudio e reproduz no celular.
+- **Android Receiver** → app instalado no celular, que recebe o áudio.
+- **Windows Launcher** → launcher portable no PC/Notebook, que localiza o Android e envia o áudio pela rede Wi‑Fi.
 
-Na prática, ele permite usar o **celular Android como uma “caixinha de som” sem fio do PC**.
+A proposta é simples: você instala o app no Android, abre o launcher no Windows e passa a usar o **celular como saída de áudio do computador**, com foco em:
 
----
-
-## 🚀 Principais funções da versão atual
-
-### No Windows (Launcher Portable)
-- 🔎 Busca automática de Androids na rede local
-- ➕ Adição manual de IP
-- 🔗 Conexão e desconexão do receptor
-- 🔊 Seleção da saída de áudio do sistema
-- ⚡ Modos de latência e estabilidade
-- 🎮 **Modo Jogo / FPS com ultra baixa latência (15 ms)**
-- 📦 Modo portable
-- 🖥️ Interface profissional redesenhada
-- 🔄 Atualização via `version.json` no GitHub
-- 🧠 Salva preferências em `%APPDATA%`
-- 🚀 Opção para iniciar com o Windows
-- 🧷 Opção de minimizar para a bandeja (tray)
-- 💾 Salvar dispositivos encontrados
-- 🧾 Log da sessão em tempo real
-
-### No Android (Receiver)
-- 📶 Fica disponível automaticamente para conexão
-- ▶️ Controle simples para ativar/desligar o receptor
-- 📱 Exibe status do receptor em tempo real
-- 🔌 Mostra dispositivo conectado
-- 🧠 Serviço em segundo plano
-- 🔋 Botão para liberar segundo plano / bateria
-- 🌑 **Modo tela preta anti-sono**
-- 💤 **Sistema anti-sono com sinal piloto 5 Hz**
-- ⚡ Ultra baixa latência com foco em sincronismo
-- 🔄 Atualizações via GitHub
-- 👑 Botão do fundador com link para o canal
+- baixa latência,
+- praticidade,
+- uso gratuito,
+- visual moderno,
+- funcionamento em segundo plano.
 
 ---
-
-## 🧩 Como funciona
-
-1. Você abre o **app Android Receiver**.
-2. Ativa o receptor no celular.
-3. Abre o **Launcher no Windows**.
-4. Procura o Android na rede local.
-5. Conecta.
-6. Inicia a transmissão.
-7. O áudio do PC passa a sair no Android.
-
----
-
-## 📸 Guia visual de uso
-
-## 1) App Android desligado
-
-Quando o app estiver desligado, o status do receptor aparecerá como **Desligado**.
 
 <p align="center">
-  <img src="docs/images/android-status-desligado.jpg" alt="WiFi Speaker Android desligado" width="360">
+  <img src="docs/assets/section-features.svg" alt="Principais recursos" width="100%">
 </p>
 
-### O que fazer nesta tela?
-- Toque em **Ativar receptor**.
-- O app passará a ficar disponível para o Windows encontrar.
+<table>
+  <tr>
+    <td width="72" align="center"><img src="docs/assets/icon-windows.svg" width="56" alt="Windows"></td>
+    <td>
+      <strong>Launcher Portable para Windows</strong><br>
+      Não precisa de instalador tradicional. Basta abrir o launcher, localizar o Android e iniciar a transmissão.
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center"><img src="docs/assets/icon-android.svg" width="56" alt="Android"></td>
+    <td>
+      <strong>Android Receiver com visual profissional</strong><br>
+      O app mostra o status do receptor, IP local, portas de áudio/controle e o dispositivo conectado em tempo real.
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center"><img src="docs/assets/icon-latency.svg" width="56" alt="Latência"></td>
+    <td>
+      <strong>Ultra baixa latência</strong><br>
+      Perfil de <strong>15 ms</strong> para uso mais rápido, com modos alternativos de maior estabilidade quando necessário.
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center"><img src="docs/assets/icon-update.svg" width="56" alt="Atualizações"></td>
+    <td>
+      <strong>Atualizações via GitHub</strong><br>
+      O app consulta a versão remota, alerta quando houver nova versão e pode exigir atualização quando definido no <code>version.json</code>.
+    </td>
+  </tr>
+  <tr>
+    <td width="72" align="center"><img src="docs/assets/icon-security.svg" width="56" alt="Proteção"></td>
+    <td>
+      <strong>Recursos extras de proteção e continuidade</strong><br>
+      Serviço em primeiro plano no Android, liberação de bateria/segundo plano, modo tela preta anti-sono, sinal piloto 5 Hz anti-sono e controles de inicialização/tray no Windows.
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 2) App Android disponível para conexão
+## ✅ Recursos atuais
 
-Depois de ativar, o receptor passa a ficar **Disponível**.
+### No Android
 
-<p align="center">
-  <img src="docs/images/android-status-disponivel.jpg" alt="WiFi Speaker Android disponível" width="360">
-</p>
-
-### O que esta tela mostra?
-- **Status do receptor**
-- **Nome do aparelho**
-- **IP local do Android**
-- **Portas UDP e Controle**
-- Estado atual do dispositivo conectado
-
-### Nesta etapa:
-- Abra o launcher no Windows.
-- Clique em **Procurar dispositivos**.
-- Selecione o Android encontrado.
-- Clique em **Conectar**.
-- Depois clique em **Iniciar transmissão**.
-
----
-
-## 3) Segundo plano, bateria e atualização
-
-Esta área foi criada para aumentar a estabilidade do receiver no Android.
-
-<p align="center">
-  <img src="docs/images/android-background-update.jpg" alt="WiFi Speaker segundo plano e atualização" width="360">
-</p>
-
-### Recursos dessa área:
-- **Liberar segundo plano / bateria**
-  - Abre as configurações do Android para reduzir bloqueios do sistema.
+- Interface moderna e limpa
+- Status do receptor em tempo real
+- Exibição do nome do dispositivo, IP, porta UDP e porta de controle
+- Botão para ativar/desligar o receptor
+- Área de status do dispositivo conectado
+- Liberação rápida de permissões de segundo plano / bateria
 - **Modo tela preta anti-sono**
-  - Ajuda em aparelhos mais agressivos com economia de energia.
-- **Atualizações via GitHub**
-  - O app consulta a versão remota e informa quando há atualização.
+- Verificação manual de atualização
+- Botão de créditos/fundador
+
+### No Windows Launcher
+
+- Interface dark moderna
+- Busca de receptores Android na rede local
+- Adição manual de IP
+- Conectar / desconectar do Android
+- Seleção de dispositivo de saída de áudio
+- Perfis de sincronização e estabilidade
+- Volume ajustável
+- Log de sessão em tempo real
+- Início automático da transmissão
+- Suporte a modo bandeja
+- Configurações salvas em **%AppData%/WS**
+- Opção de iniciar com o Windows
 
 ---
 
-## 🖥️ Como usar no Windows
+<p align="center">
+  <img src="docs/assets/section-install.svg" alt="Instalação e uso" width="100%">
+</p>
 
-### Passo a passo
-1. Abra o **WiFi Speaker Launcher** no PC.
-2. Aguarde a checagem de versão.
-3. Clique em **Procurar dispositivos**.
-4. Selecione o Android localizado.
+## 📲 Instalação no Android
+
+1. Baixe o APK da versão mais recente em:
+   - **Releases:** <a href="https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest">Clique aqui</a>
+2. Instale o APK no seu celular Android.
+3. Abra o app **WiFi Speaker**.
+4. Toque em **Ativar receptor**.
+5. Se desejar mais estabilidade em alguns aparelhos, toque em:
+   - **Liberar segundo plano / bateria**
+   - **Modo tela preta anti-sono**
+
+> **Importante:** em muitos celulares Android, permitir segundo plano / remover restrição de bateria ajuda a evitar que o sistema pause a recepção com a tela desligada.
+
+## 💻 Instalação no Windows
+
+1. Baixe a versão mais recente do launcher em:
+   - **Releases:** <a href="https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest">Clique aqui</a>
+2. Extraia a pasta do launcher.
+3. Abra o executável do **WiFi Speaker Launcher**.
+4. Aguarde a busca automática de receptores Android.
+5. Se o Android não aparecer, informe o IP manualmente.
+
+## 🔗 Como conectar
+
+1. Certifique-se de que o **PC e o Android estejam na mesma rede Wi‑Fi**.
+2. No Android, deixe o receptor **ativado**.
+3. No Windows Launcher, clique em **Procurar dispositivos**.
+4. Selecione o Android encontrado.
 5. Clique em **Conectar**.
-6. Escolha a **saída de áudio** desejada.
-7. Escolha o modo de sincronismo:
-   - **Jogo / FPS • 15 ms** → menor atraso possível
-   - **Vídeo / menor atraso** → equilíbrio entre fluidez e sincronismo
-   - **Alta estabilidade** → mais estável em redes piores
-8. Clique em **Iniciar transmissão**.
-
-### Dicas
-- Para vídeos, use uma rede Wi‑Fi estável.
-- Para jogos, prefira o modo **15 ms**.
-- Se o Android não for encontrado automaticamente, adicione o **IP manual**.
+6. Escolha a saída de áudio desejada.
+7. Clique em **Iniciar transmissão**.
 
 ---
 
-## 📱 Como usar no Android
+## ⚙️ Perfis de sincronização
 
-### Passo a passo
-1. Instale o APK.
-2. Abra o app **WiFi Speaker**.
-3. Toque em **Ativar receptor**.
-4. Se quiser mais estabilidade, toque em **Liberar segundo plano / bateria**.
-5. Se seu aparelho costuma pausar apps em segundo plano, ative o **Modo tela preta anti-sono**.
-6. Deixe o app pronto para receber a conexão.
-7. Faça a conexão pelo Windows.
+No launcher, você pode escolher entre diferentes modos:
 
----
+- **Jogo / FPS • 15 ms + piloto 5Hz** → menor atraso possível
+- **Vídeo / menor atraso • 45 ms** → bom equilíbrio para vídeos
+- **Alta estabilidade • 90 ms** → melhor quando a rede estiver instável
 
-## 🎮 Modos de latência
-
-### Jogo / FPS • 15 ms
-- Foco em menor atraso possível
-- Recomendado para jogos e uso mais responsivo
-- Pode exigir rede Wi‑Fi mais estável
-
-### Vídeo / menor atraso
-- Bom equilíbrio entre sincronismo e estabilidade
-- Indicado para YouTube, filmes e séries
-
-### Alta estabilidade
-- Melhor para redes mais fracas ou instáveis
-- Aumenta o buffer para reduzir falhas
+> Se a sua rede Wi‑Fi estiver oscilando, use um modo de maior estabilidade.
 
 ---
 
-## 💤 Anti-sono e continuidade do áudio
+## 🧠 Como o sistema anti-sono funciona
 
-Um dos focos do projeto é evitar que o Android “durma” e pare de reproduzir áudio quando a tela apaga ou quando há um período sem som.
+Para reduzir pausas causadas pelo Android:
 
-### Soluções implementadas
-- **Serviço em segundo plano**
-- **Wake lock / Wi‑Fi de baixa latência**
-- **Sinal piloto 5 Hz anti-sono** quando não há áudio ativo
-- **Modo tela preta anti-sono** para casos mais difíceis
-- **Acesso rápido para liberar bateria / segundo plano**
-
-> Em alguns aparelhos Android, o fabricante pode aplicar bloqueios agressivos de economia de energia. Nesses casos, liberar o app nas configurações de bateria é essencial.
+- o app usa serviço em primeiro plano,
+- oferece liberação de segundo plano / bateria,
+- pode manter o aparelho acordado com o **modo tela preta anti-sono**,
+- e o launcher pode enviar um **sinal piloto de 5 Hz** quando não há áudio, ajudando a manter o fluxo ativo.
 
 ---
 
-## 🔄 Atualizações via GitHub
+<p align="center">
+  <img src="docs/assets/section-gallery.svg" alt="Guia visual" width="100%">
+</p>
 
-O sistema usa um `version.json` hospedado no GitHub para:
+## 🖼️ Guia visual do Android
 
-- verificar se existe nova versão
-- avisar o usuário
-- bloquear versões antigas quando necessário
-- direcionar para a página de download/release
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/images/android-status-desligado.jpg" alt="Android desligado" width="260"><br>
+      <strong>1. Receptor desligado</strong><br>
+      Abra o app e ative o receptor.
+    </td>
+    <td align="center">
+      <img src="docs/images/android-status-disponivel.jpg" alt="Android disponível" width="260"><br>
+      <strong>2. Receptor disponível</strong><br>
+      Agora o Windows já pode localizar o aparelho.
+    </td>
+    <td align="center">
+      <img src="docs/images/android-background-update.jpg" alt="Segundo plano e atualização" width="260"><br>
+      <strong>3. Segundo plano e atualizações</strong><br>
+      Ajuste bateria/segundo plano e verifique a versão quando quiser.
+    </td>
+  </tr>
+</table>
 
-### Campos importantes do `version.json`
-- `current_version`
-- `min_supported_version`
-- `force_update`
-- `maintenance_mode`
-- `android.keyversion`
-- `windows.keyversion`
-- `download_url`
+---
+
+<p align="center">
+  <img src="docs/assets/section-update.svg" alt="Atualizações via GitHub" width="100%">
+</p>
+
+## 🔄 Como funcionam as atualizações
+
+O projeto usa um arquivo remoto chamado **version.json** para controlar:
+
+- versão atual,
+- versão mínima suportada,
+- chave de versão,
+- atualização obrigatória,
+- modo manutenção,
+- link de download.
+
+Quando houver uma nova versão:
+
+- o app pode apenas avisar,
+- ou bloquear o uso até atualizar, dependendo da configuração do repositório.
+
+### Arquivo usado
+
+```json
+{
+  "current_version": "3.3.0",
+  "min_supported_version": "3.3.0",
+  "force_update": false,
+  "maintenance_mode": false,
+  "download_url": "https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest"
+}
+```
 
 ---
 
 ## 📁 Estrutura recomendada do repositório
 
-```bash
+```text
 WS-WiFi-Speaker/
 ├─ README.md
 ├─ version.json
-├─ android/
-│  └─ AndroidWifiSpeakerV2/
-├─ pc-client/
-│  ├─ launcher_gui.py
-│  ├─ speaker_core.py
-│  ├─ build-portable-windows.bat
-│  └─ ...
-└─ docs/
-   └─ images/
-      ├─ android-status-desligado.jpg
-      ├─ android-status-disponivel.jpg
-      └─ android-background-update.jpg
+├─ docs/
+│  ├─ assets/
+│  │  ├─ hero.svg
+│  │  ├─ section-features.svg
+│  │  ├─ section-install.svg
+│  │  ├─ section-gallery.svg
+│  │  ├─ section-update.svg
+│  │  ├─ icon-windows.svg
+│  │  ├─ icon-android.svg
+│  │  ├─ icon-latency.svg
+│  │  ├─ icon-update.svg
+│  │  └─ icon-security.svg
+│  └─ images/
+│     ├─ android-status-desligado.jpg
+│     ├─ android-status-disponivel.jpg
+│     └─ android-background-update.jpg
 ```
 
 ---
 
-## 📥 Como baixar e instalar
+## ❓ Dúvidas rápidas
 
-## Android
-1. Vá para a área de **Releases** do repositório.
-2. Baixe o APK mais recente.
-3. Instale no Android.
-4. Se o sistema pedir, permita instalação de fontes desconhecidas.
-5. Abra o app e ative o receptor.
+### O projeto é pago?
+Não. Esta versão é **gratuita**, **sem anúncios** e com **tudo liberado**.
 
-## Windows
-1. Vá para a área de **Releases** do repositório.
-2. Baixe a versão **portable** do launcher.
-3. Extraia a pasta.
-4. Execute o launcher.
-5. Procure o Android e inicie a transmissão.
+### Precisa internet?
+Não para transmitir localmente. O áudio vai pela sua rede Wi‑Fi local. A internet é necessária apenas para verificar atualizações no GitHub.
+
+### Funciona com qualquer Android?
+Funciona em muitos aparelhos, mas alguns fabricantes aplicam restrições agressivas de bateria/segundo plano. Nesses casos, use as opções do próprio app para minimizar interrupções.
+
+### O launcher instala no Windows?
+A proposta atual é **portable**, facilitando testar e usar rapidamente.
 
 ---
 
-## 🛠️ Configurações do launcher Windows
-
-O launcher pode salvar preferências como:
-
-- iniciar com Windows
-- salvar dispositivos
-- lembrar último dispositivo
-- procurar Android ao abrir
-- minimizar para bandeja ao fechar
-
-Essas configurações são salvas em `%APPDATA%`.
-
----
-
-## ❗ Solução de problemas
-
-### O Android não aparece no Windows
-- Verifique se os dois estão na **mesma rede Wi‑Fi**.
-- Confira se o receptor está **Ativado**.
-- Use o **IP manual** se necessário.
-
-### O áudio para quando o celular fica parado
-- Toque em **Liberar segundo plano / bateria**.
-- Ative o **Modo tela preta anti-sono**.
-- Desative otimizações agressivas de bateria para o app.
-
-### Está com atraso no áudio
-- Use o modo **Jogo / FPS • 15 ms**.
-- Aproxime os dispositivos do roteador.
-- Evite redes congestionadas.
-
-### O launcher não inicia com o Windows
-- Verifique se a opção está marcada nas configurações.
-- Execute o launcher uma vez com privilégios adequados, se necessário.
-
----
-
-## 👑 Fundador
-
-**SrMoraes**  
-📺 Canal oficial: [https://www.youtube.com/@srmoraesbrasil](https://www.youtube.com/@srmoraesbrasil)
-
----
-
-## 📜 Licença / uso
-
-Projeto disponibilizado de forma **gratuita**, **sem anúncios** e com **todas as funções liberadas**, pensado para facilitar o uso do Android como receptor de áudio via Wi‑Fi.
-
-Se quiser acompanhar novidades, correções e melhorias, acompanhe o repositório e o canal do **SrMoraes**.
-
----
+## 👤 Fundador
 
 <p align="center">
-  Feito com dedicação por <strong>SrMoraes</strong> 🚀
+  <strong>SrMoraes</strong><br>
+  Canal oficial: <a href="https://www.youtube.com/@srmoraesbrasil">@srmoraesbrasil</a>
+</p>
+
+---
+
+## ⭐ Apoie o projeto
+
+Se este projeto foi útil para você:
+
+- deixe uma estrela no repositório,
+- acompanhe as atualizações,
+- compartilhe com outras pessoas,
+- e siga o canal do fundador.
+
+<p align="center">
+  <a href="https://github.com/srmoraesbrasil/WS-WiFi-Speaker">🌟 Ver repositório</a> • 
+  <a href="https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest">⬇️ Baixar última versão</a> • 
+  <a href="https://www.youtube.com/@srmoraesbrasil">▶️ Canal do SrMoraes</a>
 </p>
