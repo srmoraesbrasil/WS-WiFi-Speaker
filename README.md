@@ -1,530 +1,307 @@
-# 📡🔊 WS WiFi Speaker
+# 🎧 WiFi Speaker Launcher
+
+> Transforme seu Android em uma caixa de som Wi‑Fi para o seu PC ou notebook, com **baixa latência**, **receptor em segundo plano**, **atualização via GitHub** e **experiência gratuita, sem anúncios e com tudo liberado**.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:2563eb,100:38bdf8&height=180&section=header&text=WS%20WiFi%20Speaker&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Transforme%20seu%20Android%20em%20caixa%20de%20som%20do%20PC%20pelo%20Wi-Fi&descAlignY=58&descSize=16" alt="WS WiFi Speaker Banner">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Windows-Suportado-2563eb?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/Android-Suportado-22c55e?style=for-the-badge&logo=android&logoColor=white" alt="Android">
-  <img src="https://img.shields.io/badge/Gratuito-100%25%20Livre-facc15?style=for-the-badge" alt="Gratuito">
-  <img src="https://img.shields.io/badge/Sem%20An%C3%BAncios-Sim-9333ea?style=for-the-badge" alt="Sem Anúncios">
-</p>
-
-<p align="center">
-  <b>Transforme seu celular Android em uma caixinha de som para o notebook ou PC usando Wi-Fi.</b>
-</p>
-
-<p align="center">
-  Criado por <b>SrMoraes</b> 💙<br>
-  Canal oficial: <a href="https://www.youtube.com/@srmoraesbrasil">youtube.com/@srmoraesbrasil</a>
+  <strong>Projeto gratuito desenvolvido por SrMoraes</strong><br>
+  📺 Canal oficial: <a href="https://www.youtube.com/@srmoraesbrasil">@srmoraesbrasil</a>
 </p>
 
 ---
 
-## 🚀 Sobre o projeto
+## ✨ O que é o WiFi Speaker Launcher?
 
-O **WS WiFi Speaker** é uma solução simples para enviar o áudio do computador para o celular Android usando a mesma rede Wi-Fi.
+O **WiFi Speaker Launcher** é um sistema com duas partes:
 
-A proposta é ser uma alternativa:
+- **Launcher Windows** → envia o áudio do computador pela rede Wi‑Fi.
+- **App Android Receiver** → recebe o áudio e reproduz no celular.
 
-✅ gratuita  
-✅ sem anúncios  
-✅ sem login obrigatório  
-✅ com tudo liberado  
-✅ feita para todos  
-✅ fácil de instalar e usar  
-
-A ideia é simples:
-
-```text
-PC ou notebook
-↓
-envia o áudio pela rede Wi-Fi
-↓
-Android recebe o áudio
-↓
-celular toca como caixa de som
-```
+Na prática, ele permite usar o **celular Android como uma “caixinha de som” sem fio do PC**.
 
 ---
 
-## ✨ Recursos
+## 🚀 Principais funções da versão atual
 
-- 🔊 Usa o Android como caixa de som do PC
-- 📡 Comunicação pela rede Wi-Fi local
-- 🖥️ Launcher para Windows
-- 📱 Aplicativo para Android
-- 🔎 Busca automática do dispositivo Android
-- 📝 Conexão manual por IP
-- 🎚️ Controle de buffer/estabilidade
-- 🛡️ Sistema de verificação de atualização
-- 🔔 Aviso de nova versão disponível
-- 🚫 Sem anúncios
-- 🔓 Sem recursos pagos bloqueados
-- ❤️ Créditos para o canal **SrMoraes**
+### No Windows (Launcher Portable)
+- 🔎 Busca automática de Androids na rede local
+- ➕ Adição manual de IP
+- 🔗 Conexão e desconexão do receptor
+- 🔊 Seleção da saída de áudio do sistema
+- ⚡ Modos de latência e estabilidade
+- 🎮 **Modo Jogo / FPS com ultra baixa latência (15 ms)**
+- 📦 Modo portable
+- 🖥️ Interface profissional redesenhada
+- 🔄 Atualização via `version.json` no GitHub
+- 🧠 Salva preferências em `%APPDATA%`
+- 🚀 Opção para iniciar com o Windows
+- 🧷 Opção de minimizar para a bandeja (tray)
+- 💾 Salvar dispositivos encontrados
+- 🧾 Log da sessão em tempo real
 
----
-
-## 📦 Download
-
-As versões oficiais ficam na aba **Releases** deste repositório:
-
-👉 **Baixar versão mais recente:**  
-https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest
-
-Na página de download, procure pelos arquivos:
-
-### 🖥️ Windows
-
-```text
-WiFiSpeakerLauncher.exe
-```
-
-ou:
-
-```text
-WiFiSpeakerLauncher-Windows.zip
-```
-
-### 📱 Android
-
-```text
-WiFiSpeaker.apk
-```
+### No Android (Receiver)
+- 📶 Fica disponível automaticamente para conexão
+- ▶️ Controle simples para ativar/desligar o receptor
+- 📱 Exibe status do receptor em tempo real
+- 🔌 Mostra dispositivo conectado
+- 🧠 Serviço em segundo plano
+- 🔋 Botão para liberar segundo plano / bateria
+- 🌑 **Modo tela preta anti-sono**
+- 💤 **Sistema anti-sono com sinal piloto 5 Hz**
+- ⚡ Ultra baixa latência com foco em sincronismo
+- 🔄 Atualizações via GitHub
+- 👑 Botão do fundador com link para o canal
 
 ---
 
-## ✅ Requisitos
+## 🧩 Como funciona
 
-Para usar o **WS WiFi Speaker**, você precisa de:
-
-- Um computador com Windows
-- Um celular Android
-- Os dois dispositivos conectados na mesma rede Wi-Fi
-- O APK instalado no Android
-- O launcher executando no Windows
-
-> ⚠️ Importante: o celular e o PC precisam estar na mesma rede.  
-> Evite usar dados móveis no Android durante a conexão.
+1. Você abre o **app Android Receiver**.
+2. Ativa o receptor no celular.
+3. Abre o **Launcher no Windows**.
+4. Procura o Android na rede local.
+5. Conecta.
+6. Inicia a transmissão.
+7. O áudio do PC passa a sair no Android.
 
 ---
 
-# 🖥️ Como instalar no Windows
+## 📸 Guia visual de uso
 
-## 1. Baixe o launcher
+## 1) App Android desligado
 
-Acesse:
-
-```text
-https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest
-```
-
-Baixe o arquivo:
-
-```text
-WiFiSpeakerLauncher.exe
-```
-
-ou o pacote compactado:
-
-```text
-WiFiSpeakerLauncher-Windows.zip
-```
-
----
-
-## 2. Execute o programa
-
-Dê dois cliques no arquivo:
-
-```text
-WiFiSpeakerLauncher.exe
-```
-
-Se o Windows mostrar um aviso de segurança, clique em:
-
-```text
-Mais informações > Executar assim mesmo
-```
-
-Esse aviso pode aparecer porque o aplicativo ainda pode não possuir assinatura digital comercial.
-
----
-
-## 3. Permita no firewall
-
-Na primeira execução, o Windows pode perguntar se deseja permitir o acesso à rede.
-
-Clique em permitir para redes privadas/domésticas.
-
-Isso é necessário para o computador encontrar e se comunicar com o Android na rede local.
-
----
-
-# 📱 Como instalar o APK no Android
-
-## 1. Baixe o APK
-
-Acesse:
-
-```text
-https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest
-```
-
-Baixe:
-
-```text
-WiFiSpeaker.apk
-```
-
----
-
-## 2. Instale no celular
-
-Abra o arquivo baixado no Android.
-
-Se o Android pedir permissão para instalar apps de fontes desconhecidas, permita apenas para o navegador ou gerenciador de arquivos que você está usando.
-
-Depois toque em:
-
-```text
-Instalar
-```
-
----
-
-## 3. Abra o aplicativo
-
-Depois da instalação, abra:
-
-```text
-WiFi Speaker
-```
-
-Na tela principal, toque em:
-
-```text
-Iniciar receptor
-```
-
----
-
-# 🔗 Como conectar o Android ao PC
-
-## Passo 1 — Conecte os dois na mesma rede
-
-O computador e o Android precisam estar conectados ao mesmo Wi-Fi.
-
-Exemplo:
-
-```text
-PC: conectado no Wi-Fi da casa
-Android: conectado no mesmo Wi-Fi da casa
-```
-
----
-
-## Passo 2 — Inicie o receptor no Android
-
-No celular:
-
-1. Abra o app **WiFi Speaker**
-2. Toque em **Iniciar receptor**
-3. Veja o IP exibido na tela
-
-Exemplo de IP:
-
-```text
-192.168.1.50
-```
-
----
-
-## Passo 3 — Abra o launcher no Windows
-
-No PC, abra:
-
-```text
-WiFiSpeakerLauncher.exe
-```
-
-Na interface, você verá opções como:
-
-- **Servidor**
-- **Reprodutor**
-- **Configurações**
-
----
-
-## Passo 4 — Procurar Android automaticamente
-
-No launcher Windows, clique em:
-
-```text
-Procurar Android
-```
-
-Se o dispositivo for encontrado, ele aparecerá na lista.
-
-Depois clique em:
-
-```text
-Conectar
-```
-
-ou:
-
-```text
-Iniciar transmissão
-```
-
----
-
-## Passo 5 — Conectar manualmente por IP
-
-Se o Android não aparecer automaticamente, use a conexão manual.
-
-No app Android, copie o IP exibido, por exemplo:
-
-```text
-192.168.1.50
-```
-
-No Windows, cole esse IP no campo de conexão manual e clique em:
-
-```text
-Conectar
-```
-
----
-
-# 🎵 Como usar
-
-Depois de conectar:
-
-1. Reproduza qualquer áudio no PC
-2. O áudio será enviado pela rede Wi-Fi
-3. O celular Android tocará como caixa de som
-
-Você pode usar com:
-
-- YouTube
-- Navegador
-- Player de música
-- Jogos
-- Filmes
-- Vídeos
-- Chamadas e reuniões, dependendo da configuração de áudio
-
----
-
-# 🧰 Problemas comuns
-
-## ❌ O Android não aparece no Windows
-
-Verifique:
-
-- O celular e o PC estão no mesmo Wi-Fi
-- O app Android está aberto
-- O receptor foi iniciado no Android
-- O firewall do Windows não está bloqueando o launcher
-- A rede não está em modo público com isolamento
-- O roteador não está isolando dispositivos Wi-Fi
-- O antivírus não bloqueou a comunicação local
-
----
-
-## 🔇 Conectou, mas não sai som
-
-Verifique:
-
-- O volume do Android
-- O volume do Windows
-- Se existe áudio tocando no PC
-- Se o dispositivo de áudio correto foi selecionado no launcher
-- Se o receptor Android ainda está ativo
-- Se o PC e o Android continuam na mesma rede
-
----
-
-## ⏱️ O som está atrasado
-
-Tente ajustar o modo de buffer no launcher:
-
-```text
-Baixa latência
-Normal
-Alta estabilidade
-```
-
-Use:
-
-- **Baixa latência** para menor atraso
-- **Normal** para uso comum
-- **Alta estabilidade** se o áudio estiver falhando ou cortando
-
----
-
-## 🧱 O Windows bloqueou o aplicativo
-
-O Windows pode mostrar alerta em aplicativos novos ou sem assinatura digital comercial.
-
-Clique em:
-
-```text
-Mais informações > Executar assim mesmo
-```
-
-Sempre baixe o aplicativo apenas do repositório oficial:
-
-```text
-https://github.com/srmoraesbrasil/WS-WiFi-Speaker
-```
-
----
-
-# 🔄 Como atualizar
-
-O **WS WiFi Speaker** possui sistema de verificação de versão.
-
-Quando uma nova versão estiver disponível, o app poderá mostrar:
-
-```text
-Nova atualização disponível.
-Atualize para continuar usando.
-```
-
-Para atualizar:
-
-1. Acesse:
-
-```text
-https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest
-```
-
-2. Baixe a versão mais recente.
-
-3. No Windows, substitua o arquivo antigo pelo novo:
-
-```text
-WiFiSpeakerLauncher.exe
-```
-
-4. No Android, instale o novo APK por cima do antigo:
-
-```text
-WiFiSpeaker.apk
-```
-
-Normalmente não é necessário desinstalar a versão anterior.
-
----
-
-## ⚠️ Atualização obrigatória
-
-Em alguns casos, versões antigas podem deixar de funcionar para evitar bugs, falhas de compatibilidade ou problemas de conexão.
-
-Quando isso acontecer, o app mostrará uma tela de atualização obrigatória com um botão para baixar a nova versão.
-
----
-
-# 🛡️ Segurança
-
-Baixe o APK e o EXE somente pelo repositório oficial:
-
-```text
-https://github.com/srmoraesbrasil/WS-WiFi-Speaker
-```
-
-Evite baixar versões reenviadas por terceiros.
-
-O projeto pode usar verificação de versão por meio do arquivo:
-
-```text
-version.json
-```
-
-Esse arquivo ajuda a avisar os usuários quando uma nova atualização estiver disponível.
-
----
-
-# 🔐 Privacidade
-
-O **WS WiFi Speaker** foi pensado para funcionar de forma simples na rede local.
-
-O aplicativo:
-
-- Não exige login
-- Não possui anúncios
-- Não vende dados
-- Não exige conta obrigatória
-- Não usa servidor externo para transmitir áudio
-- Usa a rede Wi-Fi local para comunicação entre PC e Android
-
-A verificação de atualização pode consultar este repositório no GitHub para saber se existe uma nova versão disponível.
-
----
-
-# ❤️ Créditos
-
-Projeto criado por:
-
-```text
-SrMoraes
-```
-
-Canal oficial:
-
-```text
-https://www.youtube.com/@srmoraesbrasil
-```
+Quando o app estiver desligado, o status do receptor aparecerá como **Desligado**.
 
 <p align="center">
-  <a href="https://www.youtube.com/@srmoraesbrasil">
-    <img src="https://img.shields.io/badge/YouTube-SrMoraes-ff0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Canal SrMoraes">
-  </a>
+  <img src="docs/images/android-status-desligado.jpg" alt="WiFi Speaker Android desligado" width="360">
 </p>
 
-Este projeto foi feito para todos que querem uma solução gratuita, simples e sem anúncios para usar o Android como caixa de som do PC.
+### O que fazer nesta tela?
+- Toque em **Ativar receptor**.
+- O app passará a ficar disponível para o Windows encontrar.
 
 ---
 
-# 🗺️ Status do projeto
+## 2) App Android disponível para conexão
 
-O **WS WiFi Speaker** está em desenvolvimento e pode receber melhorias como:
-
-- Melhor qualidade de áudio
-- Menor latência
-- Reconexão automática aprimorada
-- Interface mais moderna
-- Instalador para Windows
-- Melhor compatibilidade com redes Wi-Fi
-- Versão para outras plataformas no futuro
-
----
-
-# 📌 Links oficiais
-
-## Repositório
-
-```text
-https://github.com/srmoraesbrasil/WS-WiFi-Speaker
-```
-
-## Canal SrMoraes
-
-```text
-https://www.youtube.com/@srmoraesbrasil
-```
-
----
+Depois de ativar, o receptor passa a ficar **Disponível**.
 
 <p align="center">
-  <b>WS WiFi Speaker</b><br>
-  Gratuito • Sem anúncios • Tudo liberado • Criado por SrMoraes
+  <img src="docs/images/android-status-disponivel.jpg" alt="WiFi Speaker Android disponível" width="360">
 </p>
 
+### O que esta tela mostra?
+- **Status do receptor**
+- **Nome do aparelho**
+- **IP local do Android**
+- **Portas UDP e Controle**
+- Estado atual do dispositivo conectado
+
+### Nesta etapa:
+- Abra o launcher no Windows.
+- Clique em **Procurar dispositivos**.
+- Selecione o Android encontrado.
+- Clique em **Conectar**.
+- Depois clique em **Iniciar transmissão**.
+
+---
+
+## 3) Segundo plano, bateria e atualização
+
+Esta área foi criada para aumentar a estabilidade do receiver no Android.
+
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:2563eb,100:0f172a&height=120&section=footer" alt="Footer">
+  <img src="docs/images/android-background-update.jpg" alt="WiFi Speaker segundo plano e atualização" width="360">
+</p>
+
+### Recursos dessa área:
+- **Liberar segundo plano / bateria**
+  - Abre as configurações do Android para reduzir bloqueios do sistema.
+- **Modo tela preta anti-sono**
+  - Ajuda em aparelhos mais agressivos com economia de energia.
+- **Atualizações via GitHub**
+  - O app consulta a versão remota e informa quando há atualização.
+
+---
+
+## 🖥️ Como usar no Windows
+
+### Passo a passo
+1. Abra o **WiFi Speaker Launcher** no PC.
+2. Aguarde a checagem de versão.
+3. Clique em **Procurar dispositivos**.
+4. Selecione o Android localizado.
+5. Clique em **Conectar**.
+6. Escolha a **saída de áudio** desejada.
+7. Escolha o modo de sincronismo:
+   - **Jogo / FPS • 15 ms** → menor atraso possível
+   - **Vídeo / menor atraso** → equilíbrio entre fluidez e sincronismo
+   - **Alta estabilidade** → mais estável em redes piores
+8. Clique em **Iniciar transmissão**.
+
+### Dicas
+- Para vídeos, use uma rede Wi‑Fi estável.
+- Para jogos, prefira o modo **15 ms**.
+- Se o Android não for encontrado automaticamente, adicione o **IP manual**.
+
+---
+
+## 📱 Como usar no Android
+
+### Passo a passo
+1. Instale o APK.
+2. Abra o app **WiFi Speaker**.
+3. Toque em **Ativar receptor**.
+4. Se quiser mais estabilidade, toque em **Liberar segundo plano / bateria**.
+5. Se seu aparelho costuma pausar apps em segundo plano, ative o **Modo tela preta anti-sono**.
+6. Deixe o app pronto para receber a conexão.
+7. Faça a conexão pelo Windows.
+
+---
+
+## 🎮 Modos de latência
+
+### Jogo / FPS • 15 ms
+- Foco em menor atraso possível
+- Recomendado para jogos e uso mais responsivo
+- Pode exigir rede Wi‑Fi mais estável
+
+### Vídeo / menor atraso
+- Bom equilíbrio entre sincronismo e estabilidade
+- Indicado para YouTube, filmes e séries
+
+### Alta estabilidade
+- Melhor para redes mais fracas ou instáveis
+- Aumenta o buffer para reduzir falhas
+
+---
+
+## 💤 Anti-sono e continuidade do áudio
+
+Um dos focos do projeto é evitar que o Android “durma” e pare de reproduzir áudio quando a tela apaga ou quando há um período sem som.
+
+### Soluções implementadas
+- **Serviço em segundo plano**
+- **Wake lock / Wi‑Fi de baixa latência**
+- **Sinal piloto 5 Hz anti-sono** quando não há áudio ativo
+- **Modo tela preta anti-sono** para casos mais difíceis
+- **Acesso rápido para liberar bateria / segundo plano**
+
+> Em alguns aparelhos Android, o fabricante pode aplicar bloqueios agressivos de economia de energia. Nesses casos, liberar o app nas configurações de bateria é essencial.
+
+---
+
+## 🔄 Atualizações via GitHub
+
+O sistema usa um `version.json` hospedado no GitHub para:
+
+- verificar se existe nova versão
+- avisar o usuário
+- bloquear versões antigas quando necessário
+- direcionar para a página de download/release
+
+### Campos importantes do `version.json`
+- `current_version`
+- `min_supported_version`
+- `force_update`
+- `maintenance_mode`
+- `android.keyversion`
+- `windows.keyversion`
+- `download_url`
+
+---
+
+## 📁 Estrutura recomendada do repositório
+
+```bash
+WS-WiFi-Speaker/
+├─ README.md
+├─ version.json
+├─ android/
+│  └─ AndroidWifiSpeakerV2/
+├─ pc-client/
+│  ├─ launcher_gui.py
+│  ├─ speaker_core.py
+│  ├─ build-portable-windows.bat
+│  └─ ...
+└─ docs/
+   └─ images/
+      ├─ android-status-desligado.jpg
+      ├─ android-status-disponivel.jpg
+      └─ android-background-update.jpg
+```
+
+---
+
+## 📥 Como baixar e instalar
+
+## Android
+1. Vá para a área de **Releases** do repositório.
+2. Baixe o APK mais recente.
+3. Instale no Android.
+4. Se o sistema pedir, permita instalação de fontes desconhecidas.
+5. Abra o app e ative o receptor.
+
+## Windows
+1. Vá para a área de **Releases** do repositório.
+2. Baixe a versão **portable** do launcher.
+3. Extraia a pasta.
+4. Execute o launcher.
+5. Procure o Android e inicie a transmissão.
+
+---
+
+## 🛠️ Configurações do launcher Windows
+
+O launcher pode salvar preferências como:
+
+- iniciar com Windows
+- salvar dispositivos
+- lembrar último dispositivo
+- procurar Android ao abrir
+- minimizar para bandeja ao fechar
+
+Essas configurações são salvas em `%APPDATA%`.
+
+---
+
+## ❗ Solução de problemas
+
+### O Android não aparece no Windows
+- Verifique se os dois estão na **mesma rede Wi‑Fi**.
+- Confira se o receptor está **Ativado**.
+- Use o **IP manual** se necessário.
+
+### O áudio para quando o celular fica parado
+- Toque em **Liberar segundo plano / bateria**.
+- Ative o **Modo tela preta anti-sono**.
+- Desative otimizações agressivas de bateria para o app.
+
+### Está com atraso no áudio
+- Use o modo **Jogo / FPS • 15 ms**.
+- Aproxime os dispositivos do roteador.
+- Evite redes congestionadas.
+
+### O launcher não inicia com o Windows
+- Verifique se a opção está marcada nas configurações.
+- Execute o launcher uma vez com privilégios adequados, se necessário.
+
+---
+
+## 👑 Fundador
+
+**SrMoraes**  
+📺 Canal oficial: [https://www.youtube.com/@srmoraesbrasil](https://www.youtube.com/@srmoraesbrasil)
+
+---
+
+## 📜 Licença / uso
+
+Projeto disponibilizado de forma **gratuita**, **sem anúncios** e com **todas as funções liberadas**, pensado para facilitar o uso do Android como receptor de áudio via Wi‑Fi.
+
+Se quiser acompanhar novidades, correções e melhorias, acompanhe o repositório e o canal do **SrMoraes**.
+
+---
+
+<p align="center">
+  Feito com dedicação por <strong>SrMoraes</strong> 🚀
 </p>
