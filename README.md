@@ -1,18 +1,50 @@
 <p align="center">
-  <img src="docs/assets/hero.svg" alt="WiFi Speaker Launcher" width="100%">
+  <img src="docs/images/01-hero-wifi-speaker.png" alt="WiFi Speaker - Android como caixa de som do PC via Wi-Fi" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest"><img src="https://img.shields.io/badge/Download-Releases-35D0FF?style=for-the-badge&logo=github&logoColor=white" alt="Download"></a>
-  <a href="https://www.youtube.com/@srmoraesbrasil"><img src="https://img.shields.io/badge/Canal-SrMoraes-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Canal SrMoraes"></a>
-  <img src="https://img.shields.io/badge/Windows-Portable-486CFF?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Portable">
-  <img src="https://img.shields.io/badge/Android-Receiver-32D74B?style=for-the-badge&logo=android&logoColor=white" alt="Android Receiver">
+  <img src="https://img.shields.io/badge/Windows-Launcher_Portable-0A84FF?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Launcher Portable">
+  <img src="https://img.shields.io/badge/Android-Receiver-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Receiver">
+  <img src="https://img.shields.io/badge/Latência-15_ms-35D0FF?style=for-the-badge" alt="15 ms">
+  <img src="https://img.shields.io/badge/Grátis-Sem_anúncios-F5A623?style=for-the-badge" alt="Grátis sem anúncios">
 </p>
 
 <p align="center">
-  <strong>WiFi Speaker Launcher</strong> transforma seu Android em uma caixa de som Wi‑Fi para o PC ou notebook.<br>
-  Uma versão <strong>gratuita</strong>, <strong>sem anúncios</strong> e com <strong>tudo liberado</strong>, criada por <strong>SrMoraes</strong>.
+  <strong>WiFi Speaker Launcher</strong><br>
+  Transforme seu Android em uma caixa de som Wi‑Fi para o seu PC ou notebook.<br>
+  Projeto gratuito, sem anúncios e com tudo liberado, criado por <strong>SrMoraes</strong>.
 </p>
+
+<p align="center">
+  <a href="https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest"><strong>⬇️ Baixar última versão</strong></a>
+  ·
+  <a href="https://www.youtube.com/@srmoraesbrasil"><strong>▶️ Canal SrMoraes</strong></a>
+</p>
+
+<p align="center">
+  <img src="docs/assets/pix-banner.svg" alt="Apoie o projeto gratuito - Pix 11994706231" width="100%">
+</p>
+
+---
+
+## 🎧 O que é o WiFi Speaker?
+
+O **WiFi Speaker** é um sistema com duas partes:
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>📱 Android Receiver</h3>
+      <p>App instalado no celular Android. Ele fica disponível na rede local, recebe o áudio do PC e reproduz no aparelho.</p>
+    </td>
+    <td width="50%">
+      <h3>💻 Windows Launcher</h3>
+      <p>Launcher portable para Windows. Ele encontra o Android, conecta e envia o áudio do computador via Wi‑Fi.</p>
+    </td>
+  </tr>
+</table>
+
+A ideia é simples: **usar seu celular como uma caixa de som sem fio do PC**, sem mensalidade, sem anúncios e com foco em baixa latência.
 
 ---
 
@@ -20,136 +52,175 @@
   <img src="docs/assets/section-features.svg" alt="Recursos principais" width="100%">
 </p>
 
+## ✨ Recursos principais
+
 <table>
   <tr>
-    <td width="92" align="center"><img src="docs/assets/icon-windows.svg" width="72" alt="Windows"></td>
-    <td>
-      <strong>Launcher Windows Portable</strong><br>
-      Execute o launcher no Windows, encontre o Android na rede e envie o áudio do PC sem precisar instalar um programa pesado.
-    </td>
+    <td><strong>⚡ Ultra baixa latência</strong></td>
+    <td>Modo Jogo/FPS com foco em resposta rápida e sincronismo entre imagem e som.</td>
   </tr>
   <tr>
-    <td width="92" align="center"><img src="docs/assets/icon-android.svg" width="72" alt="Android"></td>
-    <td>
-      <strong>Android Receiver</strong><br>
-      O app Android fica disponível para conexão e mostra status, IP, portas e dispositivo conectado.
-    </td>
+    <td><strong>📶 Transmissão Wi‑Fi local</strong></td>
+    <td>O áudio trafega pela sua rede local, sem depender de cabo USB para reprodução.</td>
   </tr>
   <tr>
-    <td width="92" align="center"><img src="docs/assets/icon-latency.svg" width="72" alt="Baixa latência"></td>
-    <td>
-      <strong>Ultra baixa latência</strong><br>
-      Perfil de <strong>15 ms</strong> para reduzir atraso em vídeos, jogos e uso diário.
-    </td>
+    <td><strong>💤 Anti-sono inteligente</strong></td>
+    <td>Sistema com piloto 5 Hz, serviço em segundo plano, wake lock e modo tela preta anti-sono.</td>
   </tr>
   <tr>
-    <td width="92" align="center"><img src="docs/assets/icon-background.svg" width="72" alt="Segundo plano"></td>
-    <td>
-      <strong>Segundo plano e anti-sono</strong><br>
-      Serviço em primeiro plano, liberação de bateria, modo tela preta anti-sono e sinal piloto 5 Hz para manter o fluxo ativo.
-    </td>
+    <td><strong>🖥️ Launcher profissional</strong></td>
+    <td>Interface dark, busca na rede local, conexão rápida, controle da transmissão e configurações.</td>
   </tr>
   <tr>
-    <td width="92" align="center"><img src="docs/assets/icon-update.svg" width="72" alt="Atualização"></td>
-    <td>
-      <strong>Atualizações via GitHub</strong><br>
-      Validação remota por <code>version.json</code>, aviso de nova versão, modo manutenção e update obrigatório quando necessário.
-    </td>
+    <td><strong>🔄 Atualizações via GitHub</strong></td>
+    <td>Consulta de versão remota por <code>version.json</code>, com aviso de atualização e suporte a atualização obrigatória.</td>
+  </tr>
+  <tr>
+    <td><strong>🎁 Gratuito</strong></td>
+    <td>Sem anúncios, sem bloqueio de função e feito para todos.</td>
   </tr>
 </table>
 
 ---
 
-## Visão geral
+<p align="center">
+  <img src="docs/assets/section-how.svg" alt="Como usar" width="100%">
+</p>
 
-O projeto possui duas partes:
+<p align="center">
+  <img src="docs/images/02-como-funciona.png" alt="Como funciona o WiFi Speaker em 3 passos" width="760">
+</p>
 
-| Parte | Função |
-|---|---|
-| **WiFi Speaker Android Receiver** | Recebe o áudio e reproduz no Android |
-| **WiFi Speaker Launcher Windows** | Encontra o Android e transmite o áudio do PC |
+## ⚡ Como usar em 3 passos
 
-O objetivo é entregar uma experiência simples: abrir o app no celular, abrir o launcher no Windows, conectar e ouvir o áudio do PC direto no Android.
+1. **Abra o app no Android**  
+   Ative o receptor e deixe o celular conectado na mesma rede Wi‑Fi do PC.
+
+2. **Abra o launcher no Windows**  
+   Clique em **Procurar dispositivos** ou adicione o IP manualmente.
+
+3. **Conecte e transmita**  
+   Selecione o Android, clique em **Conectar** e depois em **Iniciar transmissão**.
 
 ---
 
 <p align="center">
-  <img src="docs/assets/section-install.svg" alt="Instalação e conexão" width="100%">
+  <img src="docs/assets/section-download.svg" alt="Baixar e instalar" width="100%">
 </p>
 
-## Android
+## 📥 Download e instalação
 
-1. Baixe o APK em **Releases**.
-2. Instale no Android.
-3. Abra o app **WiFi Speaker**.
-4. Toque em **Ativar receptor**.
-5. Para maior estabilidade, toque em **Liberar segundo plano / bateria**.
-6. Em aparelhos mais agressivos, use o **Modo tela preta anti-sono**.
+### 📱 Android
 
-## Windows
+1. Acesse a página de releases:
+   - <a href="https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest">github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest</a>
+2. Baixe o arquivo **APK**.
+3. Instale no Android.
+4. Abra o app **WiFi Speaker**.
+5. Toque em **Ativar receptor**.
 
-1. Baixe o pacote portable em **Releases**.
-2. Extraia o arquivo `.zip`.
-3. Execute o `WiFiSpeakerLauncher.exe`.
-4. Clique em **Procurar dispositivos**.
-5. Selecione o Android encontrado.
-6. Clique em **Conectar**.
-7. Clique em **Iniciar transmissão**.
+### 💻 Windows
 
-> O PC e o Android precisam estar na mesma rede Wi‑Fi.
+1. Acesse a página de releases.
+2. Baixe o pacote **WiFiSpeakerLauncher-Portable.zip**.
+3. Extraia a pasta.
+4. Abra o **WiFiSpeakerLauncher.exe**.
+5. Procure o Android e inicie a transmissão.
+
+> O PC e o Android precisam estar na **mesma rede Wi‑Fi**.
 
 ---
 
-## Perfis de sincronização
+## 🎮 Ultra baixa latência
+
+<p align="center">
+  <img src="docs/images/03-ultra-baixa-latencia.png" alt="Ultra baixa latência 15 ms" width="760">
+</p>
+
+O modo de menor atraso foi pensado para:
+
+- vídeos,
+- músicas,
+- jogos,
+- testes rápidos,
+- uso diário sem cabos.
+
+Perfis disponíveis no launcher:
 
 | Modo | Indicação |
 |---|---|
-| **Jogo / FPS • 15 ms + piloto 5Hz** | Menor atraso possível |
-| **Vídeo / menor atraso • 45 ms** | Melhor equilíbrio para vídeos |
-| **Alta estabilidade • 90 ms** | Redes mais fracas ou instáveis |
+| **Jogo / FPS • 15 ms** | menor atraso possível |
+| **Vídeo / menor atraso • 45 ms** | bom equilíbrio para vídeos |
+| **Alta estabilidade • 90 ms** | melhor para redes instáveis |
+
+---
+
+## 💤 Anti-sono e segundo plano
+
+<p align="center">
+  <img src="docs/images/04-anti-sono-segundo-plano.png" alt="Anti-sono e segundo plano" width="760">
+</p>
+
+O Android pode pausar apps em segundo plano por economia de bateria. Por isso, o WiFi Speaker inclui recursos para manter o receptor ativo:
+
+- **piloto 5 Hz anti-sono**,
+- **serviço em segundo plano**,
+- **wake lock**,
+- **Wi‑Fi lock**,
+- **modo tela preta anti-sono**,
+- botão para **liberar segundo plano / bateria**.
+
+Em alguns celulares, principalmente modelos com economia agressiva, também é recomendado marcar o app como **Sem restrições / Irrestrito** nas configurações de bateria.
+
+---
+
+## 🖥️ Launcher Windows
+
+<p align="center">
+  <img src="docs/images/05-launcher-windows.png" alt="Launcher Windows do WiFi Speaker" width="760">
+</p>
+
+O launcher do Windows foi pensado para ser direto e visual:
+
+- busca automática na rede local,
+- conexão rápida,
+- seleção de dispositivo de saída,
+- controle de transmissão,
+- configurações salvas em `%APPDATA%\WS`,
+- opção de iniciar com o Windows,
+- opção de minimizar para bandeja,
+- log de sessão.
 
 ---
 
 <p align="center">
-  <img src="docs/assets/section-gallery.svg" alt="Guia visual" width="100%">
+  <img src="docs/assets/section-gallery.svg" alt="Imagens para divulgação" width="100%">
 </p>
+
+## 🎬 Imagens para Shorts, Reels e vídeos
+
+Estas imagens estão dentro da pasta `docs/images` e podem ser usadas para divulgação do projeto:
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <img src="docs/images/android-status-desligado.jpg" alt="Android desligado" width="260"><br>
-      <strong>1. Receptor desligado</strong><br>
-      Toque em <strong>Ativar receptor</strong>.
-    </td>
-    <td align="center" width="33%">
-      <img src="docs/images/android-status-disponivel.jpg" alt="Android disponível" width="260"><br>
-      <strong>2. Receptor disponível</strong><br>
-      O Windows já pode encontrar o Android.
-    </td>
-    <td align="center" width="33%">
-      <img src="docs/images/android-background-update.jpg" alt="Segundo plano e atualização" width="260"><br>
-      <strong>3. Segundo plano e atualização</strong><br>
-      Libere bateria, use anti-sono e verifique updates.
-    </td>
+    <td align="center"><img src="docs/images/01-hero-wifi-speaker.png" width="220"><br><strong>Abertura</strong></td>
+    <td align="center"><img src="docs/images/02-como-funciona.png" width="220"><br><strong>Como funciona</strong></td>
+    <td align="center"><img src="docs/images/03-ultra-baixa-latencia.png" width="220"><br><strong>15 ms</strong></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/images/04-anti-sono-segundo-plano.png" width="220"><br><strong>Anti-sono</strong></td>
+    <td align="center"><img src="docs/images/05-launcher-windows.png" width="220"><br><strong>Launcher</strong></td>
+    <td align="center"><img src="docs/images/06-baixe-no-github.png" width="220"><br><strong>Chamada final</strong></td>
   </tr>
 </table>
 
 ---
 
-<p align="center">
-  <img src="docs/assets/section-update.svg" alt="Atualizações via GitHub" width="100%">
-</p>
+## 🔄 Atualizações via GitHub
 
-O arquivo `version.json` permite controlar remotamente:
+O sistema usa o arquivo `version.json` para controlar atualização do Windows Launcher e do Android Receiver.
 
-- versão atual;
-- versão mínima suportada;
-- chave de versão;
-- modo manutenção;
-- atualização obrigatória;
-- links de download para APK e Launcher.
-
-Exemplo resumido:
+Exemplo de informações usadas:
 
 ```json
 {
@@ -161,74 +232,95 @@ Exemplo resumido:
 }
 ```
 
+Com isso, o app pode:
+
+- avisar sobre nova versão,
+- bloquear versões antigas quando necessário,
+- abrir a página de download,
+- exibir manutenção temporária.
+
 ---
 
 <p align="center">
-  <img src="docs/assets/section-trouble.svg" alt="Solução de problemas" width="100%">
+  <img src="docs/assets/section-faq.svg" alt="Dúvidas e solução de problemas" width="100%">
 </p>
 
-## O Android não aparece no launcher
+## 🛠️ Solução de problemas
 
-- Confirme que ambos estão na mesma rede Wi‑Fi.
-- Verifique se o receptor está **Disponível** no Android.
-- Use o IP manual exibido no app Android.
+### O Android não aparece no launcher
 
-## O áudio para com a tela apagada
+- Confirme que PC e Android estão na mesma rede Wi‑Fi.
+- Ative o receptor no app Android.
+- Clique em **Procurar dispositivos**.
+- Use o IP manual se a busca automática não encontrar.
 
-- Toque em **Liberar segundo plano / bateria**.
-- Remova restrição de bateria do app.
-- Use o **Modo tela preta anti-sono**.
+### A transmissão conecta, mas não toca áudio
 
-## O áudio está com atraso
+- Verifique se a saída de áudio correta foi selecionada.
+- Clique em **Atualizar dispositivos de áudio**.
+- Teste a saída padrão do sistema.
+- Gere o launcher novamente se estiver usando uma versão antiga.
+
+### O áudio para quando a tela apaga
+
+- Use o botão **Liberar segundo plano / bateria**.
+- Marque o app como **Sem restrições / Irrestrito**.
+- Use o **Modo tela preta anti-sono** em aparelhos mais agressivos.
+
+### Está com atraso
 
 - Use o modo **Jogo / FPS • 15 ms**.
-- Aproxime o celular do roteador.
-- Evite redes congestionadas.
-
-## O Windows não iniciou com o sistema
-
-- Abra as configurações do launcher.
-- Marque **Iniciar com o Windows**.
-- Verifique se o Windows permitiu salvar a configuração.
+- Aproxime o Android e o PC do roteador.
+- Evite redes Wi‑Fi congestionadas.
 
 ---
 
-## Estrutura recomendada
+## 📁 Estrutura recomendada
 
 ```text
 WS-WiFi-Speaker/
 ├─ README.md
 ├─ version.json
-└─ docs/
-   ├─ assets/
-   │  ├─ hero.svg
-   │  ├─ section-features.svg
-   │  ├─ section-install.svg
-   │  ├─ section-gallery.svg
-   │  ├─ section-update.svg
-   │  ├─ section-trouble.svg
-   │  ├─ icon-windows.svg
-   │  ├─ icon-android.svg
-   │  ├─ icon-latency.svg
-   │  ├─ icon-background.svg
-   │  └─ icon-update.svg
-   └─ images/
-      ├─ android-status-desligado.jpg
-      ├─ android-status-disponivel.jpg
-      └─ android-background-update.jpg
+├─ docs/
+│  ├─ assets/
+│  │  ├─ pix-banner.svg
+│  │  ├─ section-download.svg
+│  │  ├─ section-features.svg
+│  │  ├─ section-gallery.svg
+│  │  ├─ section-how.svg
+│  │  └─ section-faq.svg
+│  └─ images/
+│     ├─ 01-hero-wifi-speaker.png
+│     ├─ 02-como-funciona.png
+│     ├─ 03-ultra-baixa-latencia.png
+│     ├─ 04-anti-sono-segundo-plano.png
+│     ├─ 05-launcher-windows.png
+│     └─ 06-baixe-no-github.png
 ```
 
 ---
 
-## Fundador
+## 👑 Fundador
 
 <p align="center">
   <strong>SrMoraes</strong><br>
-  <a href="https://www.youtube.com/@srmoraesbrasil">youtube.com/@srmoraesbrasil</a>
+  Canal oficial: <a href="https://www.youtube.com/@srmoraesbrasil">@srmoraesbrasil</a><br>
+  Pix para apoiar o projeto: <strong>11994706231</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest"><strong>Baixar última versão</strong></a>
-  &nbsp;•&nbsp;
-  <a href="https://www.youtube.com/@srmoraesbrasil"><strong>Canal do SrMoraes</strong></a>
+  <img src="docs/images/06-baixe-no-github.png" alt="Baixe no GitHub" width="760">
+</p>
+
+<p align="center">
+  <a href="https://github.com/srmoraesbrasil/WS-WiFi-Speaker/releases/latest"><strong>⬇️ Baixar no GitHub</strong></a>
+  ·
+  <a href="https://www.youtube.com/@srmoraesbrasil"><strong>▶️ YouTube</strong></a>
+</p>
+
+---
+
+<p align="center">
+  <strong>Som sem cabos. Simples. Rápido.</strong><br>
+  Feito por SrMoraes para quem exige o melhor.
 </p>

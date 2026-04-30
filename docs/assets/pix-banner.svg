@@ -1,0 +1,25 @@
+<svg width="1200" height="150" viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05101F"/>
+      <stop offset="0.55" stop-color="#0A1F3B"/>
+      <stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1200" y2="0">
+      <stop stop-color="#35D0FF"/>
+      <stop offset="1" stop-color="#4D68FF"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-80%" width="120%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1.5" y="1.5" width="1197" height="147" rx="28" fill="url(#g)" stroke="url(#b)" stroke-width="3"/>
+  <circle cx="1050" cy="20" r="140" fill="#35D0FF" fill-opacity="0.07"/>
+  <circle cx="160" cy="130" r="160" fill="#4D68FF" fill-opacity="0.08"/>
+  <text x="52" y="58" fill="#FFFFFF" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="800">💙 Apoie o projeto gratuito</text>
+  <text x="52" y="104" fill="#BFD7FF" font-size="25" font-family="Arial, Helvetica, sans-serif">O WiFi Speaker é grátis, sem anúncios e com tudo liberado.</text>
+  <rect x="710" y="38" width="430" height="74" rx="22" fill="#0B1E39" stroke="url(#b)" stroke-width="2" filter="url(#glow)"/>
+  <text x="748" y="68" fill="#35D0FF" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700">PIX para apoio</text>
+  <text x="748" y="101" fill="#FFFFFF" font-size="32" font-family="Arial, Helvetica, sans-serif" font-weight="900">11994706231</text>
+</svg>

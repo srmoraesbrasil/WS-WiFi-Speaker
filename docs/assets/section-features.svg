@@ -1,10 +1,14 @@
-<svg width="1100" height="98" viewBox="0 0 1100 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1100" y2="0"><stop stop-color="#35D0FF"/><stop offset="1" stop-color="#486CFF"/></linearGradient>
-    <filter id="glow" x="-10%" y="-80%" width="120%" height="260%"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="g" x1="0" y1="0" x2="1200" y2="120">
+      <stop stop-color="#07111F"/><stop offset="1" stop-color="#0C2444"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0">
+      <stop stop-color="#35D0FF"/><stop offset="1" stop-color="#4D68FF"/>
+    </linearGradient>
   </defs>
-  <rect x="1.5" y="1.5" width="1097" height="95" rx="22" fill="#071323" stroke="url(#g)" stroke-opacity="0.48" stroke-width="3"/>
-  <rect x="26" y="24" width="10" height="50" rx="5" fill="url(#g)" filter="url(#glow)"/>
-  <text x="56" y="44" fill="#FFFFFF" font-size="29" font-family="Arial, Helvetica, sans-serif" font-weight="800">Recursos principais</text>
-  <text x="56" y="72" fill="#9EB6D4" font-size="18" font-family="Arial, Helvetica, sans-serif">Recursos do Android Receiver e do Launcher Windows</text>
+  <rect x="1" y="1" width="1198" height="118" rx="22" fill="url(#g)" stroke="url(#line)" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M32 84 C260 18, 520 102, 736 34 C904 -18, 1052 38, 1168 20" stroke="#35D0FF" stroke-opacity="0.24" stroke-width="3"/>
+  <text x="46" y="54" fill="#FFFFFF" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="850">✨ Recursos principais</text>
+  <text x="48" y="88" fill="#BFD7FF" font-size="20" font-family="Arial, Helvetica, sans-serif">Baixa latência, anti-sono, atualização via GitHub e interface profissional.</text>
 </svg>
